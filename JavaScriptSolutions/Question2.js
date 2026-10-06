@@ -1,4 +1,14 @@
-let units =67;
+// Q2. Electricity Bill
+// Write a JavaScript program that takes the number of electricity units consumed and calculates 
+// the bill according to these rules:
+
+// Up to 50 units → Rs. 5 per unit
+// 51–100 units → Rs. 7 per unit
+// 101–200 units → Rs. 10 per unit
+// Above 200 units → Rs. 12 per unit
+// Use if...else if...else.
+
+let units = 67;
 let bill;
 
 if (units <= 50) {
